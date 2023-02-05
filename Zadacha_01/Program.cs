@@ -33,7 +33,7 @@ int number = InputNumber("Введите пятизначное число");
                 result = result / 10;
             }
             array[i] = result % 10;
-            System.Console.Write(array[i] + " ");
+            // System.Console.Write(array[i] + " ");
         }
         if ((array[0] == array[4]) && (array[1] == array[3]))
         {
