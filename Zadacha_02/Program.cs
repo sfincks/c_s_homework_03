@@ -6,9 +6,9 @@
 
 //((x2-x1)^2+(y2-y1)^2+(z2-z1)^2)^(1/2)
 
-int InputNumber(string coord)
+int InputNumber(string num)
 {
-    System.Console.WriteLine(coord);
+    System.Console.WriteLine(num);
     return Convert.ToInt32(Console.ReadLine());
 }
 
